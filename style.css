@@ -13,13 +13,13 @@ html {
 }
 
 body {
-  background: #ccc;
+  
   margin: 30px 50px;
   line-height: 1.4;
 }
 
 .btn {
-  background: var(--dark);
+  background: #b30000;
   color: var(--light);
   padding: 0.6rem 1.3rem;
   text-decoration: none;
@@ -31,6 +31,7 @@ img {
 }
 
 .wrapper {
+  background:#ebebe0;
   display: grid;
   grid-gap: 20px;
 }
@@ -43,7 +44,7 @@ img {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url(Resources/initialImagejg.jpg);
+  background: url(Resources/puta.jpg);
   background-size: cover;
   background-position: center;
   padding: 3rem;
@@ -96,6 +97,7 @@ img {
 }
 
 .box {
+  
   background: var(--primary);
   text-align: center;
   padding: 1.5rem 2rem;
@@ -169,19 +171,21 @@ footer {
   }
 }
 
-ul {
+.nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
   background-color: #333;
+  border-radius: 10px;
+
 }
 
-li {
-  float: left;
+.nav li {
+  float: right;
 }
 
-li a {
+.nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -189,6 +193,53 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.nav li a:hover {
   background-color: #111;
 }
+#logo{
+	float:left;
+
+}
+
+
+/* aboutPage */
+
+
+
+.wrapperabout {
+  display: grid;
+  grid-gap: 20px;
+  background-color: #f7f7f7
+}
+.wrapperabout img{
+	float: right;
+	max-width: 1024px;
+	min-width: 50%;
+}
+#aboutMe{
+
+	font-size: 4rem;
+	font-family: veranda;
+
+}
+
+.wrapperabout h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+
+}
+
+.wrapperabout p {
+  font-size: 1.3rem;
+  margin-top: 0;
+  
+}
+
+.myskills li{
+	text-align: left;
+	font-family: veranda;
+	font-size: 1.3rem;
+}
+
+  
+
