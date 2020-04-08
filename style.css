@@ -7,16 +7,19 @@
 }
 
 html {
-  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--dark);
 }
 
-body {
-  
-  margin: 30px 50px;
-  line-height: 1.4;
+
+
+.top-side{
+background: url(https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+background-size: cover;
+background-position: center;
+padding: 3rem;
 }
+
 
 .btn {
   background: #b30000;
@@ -26,15 +29,7 @@ body {
   border: 0;
 }
 
-img {
-  max-width: 100%;
-}
 
-.wrapper {
-  background:#ebebe0;
-  display: grid;
-  grid-gap: 20px;
-}
 
 
 /* Top Container */
@@ -42,17 +37,12 @@ img {
 
 /* Showcase */
 .showcase {
-  grid-area: showcase;
-  min-height: 400px;
-  background: url(Resources/puta.jpg);
-  background-size: cover;
-  background-position: center;
-  padding: 3rem;
+  min-height:500px;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  box-shadow: var(--shadow);
+
 }
 
 .showcase h1 {
@@ -68,8 +58,17 @@ img {
 }
 
 /* Top Box */
+
+
+.medium-side{
+
+  background: #12412;
+  padding: 1rem;
+
+
+
+}
 .top-box {
-  background: var(--primary);
   display: grid;
   align-items: center;
   justify-items: center;
@@ -97,21 +96,33 @@ img {
 }
 
 .box {
-  
-  background: var(--primary);
+
+  background: #f5fcfb;
+
   text-align: center;
   padding: 1.5rem 2rem;
   box-shadow: var(--shadow);
 }
 
+.box img{
+  max-width: 100px;
+  min-width: 100px;
+  max-height: 100px;
+  min-height: 100px;
+
+  }
+
 /* Info */
 .info {
-  background: var(--primary);
+  background: #f5fcfb;
   box-shadow: var(--shadow);
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(2, 1fr);
   padding: 3rem;
+}
+.info img{
+  max-width: 80%;
 }
 
 /* Portfolio */
@@ -154,6 +165,12 @@ footer {
   .info {
     grid-template-columns: 1fr;
   }
+  .bottomPart img{
+    max-width: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    min-height: 100px;
+  }
 
   .info .btn {
     display: block;
@@ -161,6 +178,8 @@ footer {
     margin: auto;
   }
 }
+
+
 
 @media (max-width: 500px) {
   .top-container {
@@ -176,7 +195,7 @@ footer {
   margin: 0;
   padding: 10px;
   overflow: hidden;
-  background-color: #333;
+
   border-radius: 10px;
 
 }
@@ -195,11 +214,90 @@ footer {
 
 .nav li a:hover {
   background-color: #111;
+  background-size:contain;
+}
+#logolist{
+  float:left;
 }
 #logo{
-	float:left;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  overflow: hidden;
 
 }
+#logo:hover{
+  color#fff;
+}
+#portofolioPresentation{
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  overflow: hidden;
+
+}
+
+#githubLink {
+  color:orange;
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+
+}
+.githubLink{
+  color: #3498db;
+}
+
+.githubLink:hover{
+  color: #fff;
+}
+.githubLink::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before,.btn3::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn2::before,.btn4::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btn3::before,.btn4::before{
+  height: 180%;
+}
+.btn1:hover::before,.btn2:hover::before{
+  height: 180%;
+}
+.btn3:hover::before,.btn4:hover::before{
+  height: 0%;
+}
+
+
+
+
+#MyCV{
+  background-color: inherit;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+
 
 
 /* aboutPage */
@@ -232,7 +330,7 @@ footer {
 .wrapperabout p {
   font-size: 1.3rem;
   margin-top: 0;
-  
+
 }
 
 .myskills li{
@@ -241,7 +339,7 @@ footer {
 	font-size: 1.3rem;
 }
 
-  
+
 
 
 
