@@ -236,6 +236,7 @@ footer {
   font-size: 20px;
   font-family: "montserrat";
   overflow: hidden;
+  color:black;
 
 }
 
@@ -354,10 +355,14 @@ footer {
 	font-size: 1.3rem;
   color:white;
 }
+#mySkillsInclude{
+
+  text-align: left;
+}
 
 #myResume{
 
-  margin-top: 5rem;
+  margin-top: 2rem;
 
 }
 
@@ -373,12 +378,13 @@ footer {
 
 
 
-.contact-section{
+.contactsection{
   background: url(Resources/contactme.jpg) no-repeat center;
   background-size: cover;
-  padding: 30px 0;
+
+  padding: 3rem;
 }
-.contact-section h1{
+.contactsection h1{
   text-align: center;
   color: white;
   font-size:60px;
