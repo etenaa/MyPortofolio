@@ -483,6 +483,10 @@ textarea.contact-form-text{
 
 }
 
+.Cv{
+
+  background: url(Resources/WhiteCv.jpeg);
+}
 .mybuttonsCV{
   height: 100px;
   }
@@ -490,7 +494,6 @@ textarea.contact-form-text{
 
 .WrapperCv{
     display:block;
-
     padding:3rem;
 
 }
@@ -505,7 +508,7 @@ textarea.contact-form-text{
 .WrapperCv p{
   font-size: 1rem;
 	font-family: "montserrat";
-  color:bliack;
+  color:black;
 }
 
 .WrapperCv h2{
@@ -516,6 +519,7 @@ textarea.contact-form-text{
 .containerBox{
   display: grid;
   grid-template-columns: 20% 80%;
+  gird-template-row:2;
 
 
 }
@@ -524,11 +528,79 @@ textarea.contact-form-text{
 }
 .containerBox img{
   max-width: 100%;
+  position:inherit;
+}
+.textImp{
+  color:blue;
+  font-family: "montserrat";
+  font-size: 2rem;
+}
+
+.containerAboutMe{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding:2rem;
+
+
+}
+.containerAboutMe >div{
+  margin:20px;
+}
+.personalInfo{
+  color:blue;
+  font-size:1rem;
+  font-family: "montserrat";
+}
+#centeredText{
+  text-align: center;
+
+
 }
 
 
 
+.containerSkills{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  gird-template-row:2;
+  background-color: blue;
+  padding:2rem;
+}
 
+.containerSkills >div{
+
+  background-color: white;
+}
+.containerSkills h3{
+  color: black;
+}
+
+
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+    padding-top:-10px;
+
+}
+.listSkills{
+  display:block;
+
+    margin:2rem;
+    border:1px solid orange;
+
+}
+
+.listSkils progress{
+  width:100%;
+  color:red;
+
+
+
+}
+#file{
+  width:100%;
+}
 
 
 /*specialbuttons*/
