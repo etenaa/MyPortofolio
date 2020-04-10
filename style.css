@@ -308,7 +308,7 @@ footer {
 .wrapperabout {
   display: grid;
   grid-gap: 20px;
-  background: url(Resources/coverabout.jpeg);
+  background: url(https://etenaa.github.io/MyPortofolio/Resources/coverabout.jpeg);
   background-size: cover;
   background-position: center;
   padding: 3rem;
@@ -379,7 +379,7 @@ footer {
 
 
 .contactsection{
-  background: url(Resources/contactme.jpg) no-repeat center;
+  background: url(https://etenaa.github.io/MyPortofolio/Resources/contactme.jpg) no-repeat center;
   background-size: cover;
 
   padding: 3rem;
@@ -449,7 +449,7 @@ textarea.contact-form-text{
 
 
 .topsideCV{
-  background: url(Resources/CvCoverTop.jpeg) no-repeat center;
+  background: url(https://etenaa.github.io/MyPortofolio/Resources/CvCoverTop.jpeg) no-repeat center;
   background-size: cover;
   background-position: center;
   padding: 3rem;
@@ -491,7 +491,7 @@ textarea.contact-form-text{
 
 .Cv{
 
-  background: url(Resources/WhiteCv.jpeg);
+  background: url(https://etenaa.github.io/MyPortofolio/Resources/WhiteCv.jpeg);
 }
 .mybuttonsCV{
   height: 100px;
