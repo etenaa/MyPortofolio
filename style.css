@@ -60,14 +60,7 @@ padding: 3rem;
 /* Top Box */
 
 
-.medium-side{
 
-  background: #12412;
-  padding: 1rem;
-
-
-
-}
 .top-box {
   display: grid;
   align-items: center;
@@ -227,9 +220,8 @@ footer {
   overflow: hidden;
 
 }
-#logo:hover{
-  color#fff;
-}
+
+
 #portofolioPresentation{
   background: none;
   padding: 10px 20px;
@@ -237,8 +229,16 @@ footer {
   font-family: "montserrat";
   overflow: hidden;
   color:black;
+ 
 
 }
+.portfolio img {
+  width: 100%;
+  box-shadow: var(--shadow);
+  max-height: 250px;
+
+}
+
 
 #githubLink {
   color:orange;
@@ -525,7 +525,7 @@ textarea.contact-form-text{
 .containerBox{
   display: grid;
   grid-template-columns: 20% 80%;
-  gird-template-row:2;
+
 
 
 }
@@ -568,7 +568,7 @@ textarea.contact-form-text{
 .containerSkills{
   display:grid;
   grid-template-columns: 50% 50%;
-  gird-template-row:2;
+
   background-color: blue;
   padding:2rem;
 }
